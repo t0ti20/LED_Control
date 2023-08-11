@@ -1,35 +1,61 @@
-# LED_Control 💡✨
+# LED Control Project 🌟
 
-Control your LEDs with style and precision! Dive into a world where you're the master of light, blinking, and timing.
+Venture into the world of microcontrollers and LEDs. Understand how to manipulate LED brightness and timings using specialized drivers, and embark on a journey to control light with precision.
 
-## LED Magic
-![Screenshot 2023-08-09 202853](https://github.com/t0ti20/LED_Control/assets/61616031/74a33480-0fd4-4431-8a08-02fa6a721cb5)
-## 🎉 What's Inside? 🚀
+## Blink to Life!
+![Project Screenshot](https://github.com/t0ti20/LED_Control/assets/61616031/74a33480-0fd4-4431-8a08-02fa6a721cb5)
+## 📘 Specifications:
 
-- **GPIO Driver:** Unleash the power of general-purpose input and output operations.
-- **Timer Driver:** Be the master of time! Control PWM signals and decide when your LED should shine or take a break.
-- **Interrupt Driver:** Respond to events in a flash! Perfect for those who like to be in the moment.
+### 1. Project Setup:
+- Understand project requirements.
+- Design a schematic/block diagram.
+- Organize project folders, including the MCAL, HAL, SERVICE, APPLICATION, and LIBRARIES layers.
 
-## 🕹️ How to Play with Lights 🌀
+### 2. GPIO Driver Implementation:
+- Construct a GPIO driver.
+- Implement requisite functions for project goals.
+- Share a demo (max. 3 min) detailing GPIO driver functionality.
 
-1. Kick off the main application (provide detailed steps or commands).
-2. Turn the tables! Decide when your LED should shine and when it should rest.
-3. Sit back and enjoy the LED light show.
+### 3. SysTick Timer Driver Development:
+- Build the SysTick Timer driver.
+- Design functions for project needs.
+- Construct a SysTick Timer ISR.
+- Integrate the ISR as a callback function.
+- Share a tutorial (max. 2 min) describing SysTick Timer driver functions.
 
-## 📁 Dive Deeper! 🕵️
+### 4. Interrupt Driver Construction:
+- Initiate the Interrupt driver.
+- Design essential functions for project aims.
+- Present a walkthrough (max. 2 min) explaining Interrupt driver functionality.
 
-- **APPLICATION:** The heart of our LED universe.
-- **HAL:** Your hardware genie, granting all your hardware wishes.
-- **MCAL:** The bridge between you and the microcontroller magic.
-- **SERVICE:** All the cool tools you didn't know you needed.
-- **LIBRARIES:** The secret sauce! External and internal enchantments.
+### 5. Application Testing:
+- Demonstrate your code and its execution.
+- Exhibit the Tiva C board simulator, illustrating LED status modifications in real-time (max. 3 min).
 
-## 🎥 See the Magic in Action! 🎬
+## 🚀 Project Highlights:
 
-You've got to see it to believe it! Watch the magic unfold here.
+- **GPIO Driver:** Create a bespoke GPIO driver to facilitate input and output operations.
+- **SysTick Timer Driver:** Implement the SysTick Timer to control the LED's ON and OFF periods with PWM signals using Timer Overflow.
+- **Interrupt Driver:** Construct an interrupt driver from scratch for swift response to real-time events.
 
-https://github.com/t0ti20/LED_Control/assets/61616031/3897a79c-d9fb-4d63-9e59-ef9f2323b3b8
+## 🛠️ Steps to Illuminate:
 
-## ⭐ Built & Maintained by ❤️
+1. Setup the primary application (instructions pending).
+2. Define your LED's ON and OFF intervals.
+3. Witness the captivating display of your LED's luminance.
 
-The LED Magician - [@t0ti20](https://github.com/t0ti20)
+## 📂 Project Structure:
+
+- **APPLICATION:** The epicenter of your LED management.
+- **HAL:** The trusted assistant for your hardware operations.
+- **MCAL:** The mediator between your desires and the microcontroller's wonders.
+- **SERVICE:** Your toolkit filled with indispensable utilities.
+- **LIBRARIES:** Key integrations, both external and internal.
+
+## 🎦 Watch the Implementation:
+Experience the magic of LED control firsthand.
+
+[View Demonstration](https://github.com/t0ti20/LED_Control/assets/61616031/3897a79c-d9fb-4d63-9e59-ef9f2323b3b8)
+
+## ❤️ Developer Credits:
+The LED Aficionado - [@t0ti20](https://github.com/t0ti20)
